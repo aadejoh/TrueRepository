@@ -1,0 +1,9 @@
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\obj\x86\Debug\BugSmash.csprojResolveAssemblyReference.cache
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\bin\x86\Debug\BugSmash.exe
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\bin\x86\Debug\BugSmash.pdb
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\obj\x86\Debug\BugSmash.exe
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\obj\x86\Debug\BugSmash.pdb
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\bin\x86\Debug\Content\windows.xnb
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\bin\x86\Debug\Content\spritesheet.xnb
+C:\Users\EAHSCS\Documents\GitHub\TrueRepository\New folder\BugSmash\BugSmash\BugSmash\bin\x86\Debug\Content\background.xnb
