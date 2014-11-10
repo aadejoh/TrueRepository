@@ -20,7 +20,6 @@ namespace BugSmash
         SpriteBatch spriteBatch;
         Texture2D background, spritesheet, windows;
         Sprite Cursor, Bug;
-        MouseState ms = Mouse.GetState();
         // aa
         public Game1()
         {
@@ -50,9 +49,8 @@ namespace BugSmash
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>("background");
-            Cursor = new Sprite(new Vector2(40, 40), spritesheet, new Rectangle(137, 139, 178, 252), Vector2.Zero);
+            Cursor = new Sprite(new Vector2(40, 40), spritesheet, new Rectangle(136, 199, 178, 252), Vector2.Zero);
             Bug = new Sprite(new Vector2(10, 10), spritesheet, new Rectangle(3,11,58,49), new Vector2(100,100));
-            
             // TODO: use this.Content to load your game content here
         }
 
