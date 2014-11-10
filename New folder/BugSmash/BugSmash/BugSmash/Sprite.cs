@@ -175,16 +175,7 @@ namespace BugSmash
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(
-                Texture,
-                Center,
-                Source,
-                tintColor,
-                rotation,
-                origin,
-                1.0f,
-                this.FlipHorizontal ? SpriteEffects.FlipHorizontally : SpriteEffects.None,
-                0.0f);
+           
         }
     }
 }

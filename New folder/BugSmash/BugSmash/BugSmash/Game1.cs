@@ -20,6 +20,7 @@ namespace BugSmash
         SpriteBatch spriteBatch;
         Texture2D background, spritesheet, windows;
         Sprite Cursor, Bug;
+        MouseState = Mouse.GetStarted();
         // aa
         public Game1()
         {
