@@ -20,7 +20,7 @@ namespace BugSmash
         SpriteBatch spriteBatch;
         Texture2D background, spritesheet, windows;
         Sprite Cursor, Bug;
-        MouseState = Mouse.GetStarted();
+        
         // aa
         public Game1()
         {
@@ -50,8 +50,9 @@ namespace BugSmash
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>("background");
-            Cursor = new Sprite(new Vector2(40, 40), spritesheet, new Rectangle(136, 199, 178, 252), Vector2.Zero);
-            Bug = new Sprite(new Vector2(10, 10), spritesheet, new Rectangle(3,11,58,49), new Vector2(100,100));
+            spritesheet = Content.Load<Texture2D>("spritesheet");
+            Cursor = new Sprite(new Vector2(40, 40), spritesheet, new Rectangle(135, 197, 48, 52), Vector2.Zero);
+            Bug = new Sprite(new Vector2(10, 10), spritesheet, new Rectangle(3,11,58,49), new Vector2(15,15));
             // TODO: use this.Content to load your game content here
         }
 
@@ -74,8 +75,11 @@ namespace BugSmash
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
-
             
+            MouseState ms = Mouse.GetState();
+            Cursor.Location = new Vector2(ms.X, ms.Y);
+            if(ms.LeftButton&&)
+            Bug.Location = new Vector2(ms.X, ms.Y);
 
             base.Update(gameTime);
         }
@@ -90,6 +94,7 @@ namespace BugSmash
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
             spriteBatch.Draw(background, Vector2.Zero, Color.White);
             Bug.Draw(spriteBatch);
+            Cursor.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
         }
